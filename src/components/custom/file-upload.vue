@@ -1,7 +1,7 @@
 <script setup lang="ts">
   import { ref } from 'vue';
   import { useDropzone } from 'vue3-dropzone';
-  import { AxiosProgressEvent, CancelTokenSource } from 'axios';
+  import { CancelTokenSource } from 'axios';
   import {
     AudioWaveform,
     File,
@@ -107,7 +107,8 @@
     };
   };
   
-  const onUploadProgress = (
+  // Unused function for now but can be used to track upload progress with axios
+  /* const onUploadProgress = (
     progressEvent: AxiosProgressEvent,
     file: File,
     cancelSource: CancelTokenSource
@@ -137,7 +138,7 @@
         return item;
       }
     });
-  };
+  }; */
   
   const removeFile = (file: File) => {
     filesToUpload.value = filesToUpload.value.filter(
