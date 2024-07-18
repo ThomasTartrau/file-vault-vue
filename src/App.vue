@@ -30,7 +30,7 @@ import { Button } from '@/components/ui/button';
             </div>
           </DialogContent>
         </Dialog>
-        <a class="flex gap-1 items-center" href="https://github.com/ManishBisht777/file-vault">
+        <a class="flex gap-1 items-center" href="https://github.com/ThomasTartrau/file-vault-vue">
           Github
           <MoveRight :size=15 />
         </a>
