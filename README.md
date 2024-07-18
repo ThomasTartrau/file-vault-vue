@@ -1,5 +1,6 @@
-# Vue 3 + TypeScript + Vite
+# File upload component
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![image](https://github.com/user-attachments/assets/812337b2-ffd4-44f9-bffa-e3b8337723e8)
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+
+Credit to [originial react component owner](https://github.com/ManishBisht777/file-vault)
